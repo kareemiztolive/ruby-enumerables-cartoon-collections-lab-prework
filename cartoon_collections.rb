@@ -16,7 +16,9 @@ end
 
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  if array.detect{|word| word =="chedder","gouda","camembert")
+  if array.detect{|word| word == "chedder"|| word == "gouda"||word == "camembert"}
+end
+return nil
   
   
 end
